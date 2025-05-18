@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cipher Encoder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Cipher Encoder</h1>
+    <p>Select a cipher method below:</p>
+
+    <div class="button-group">
+      <button onclick="showCaesar()">Caesar Cipher</button>
+      <button onclick="showPlayfair()">Playfair Cipher</button>
+    </div>
+
+    <div id="caesar" class="cipher-box">
+      <h2>Caesar Cipher</h2>
+      <input type="text" id="caesarInput" placeholder="Enter text" />
+      <input type="number" id="shift" placeholder="Shift (e.g. 3)" />
+      <button onclick="encryptCaesar()">Encrypt</button>
+      <button onclick="decryptCaesar()">Decrypt</button>
+      <p id="caesarResult"></p>
+    </div>
+
+    <div id="playfair" class="cipher-box">
+      <h2>Playfair Cipher</h2>
+      <input type="text" id="playfairInput" placeholder="Enter text" />
+      <input type="text" id="keyword" placeholder="Enter keyword" />
+      <button onclick="encryptPlayfair()">Encrypt</button>
+      <button onclick="decryptPlayfair()">Decrypt</button>
+      <p id="playfairResult"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
