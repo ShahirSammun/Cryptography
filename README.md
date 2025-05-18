@@ -5,7 +5,7 @@ Md Shahir Sammun
 ID-2122020021
 Batch-57
 
-Some screenshot of our Project
+Some screenshot of our Project:
 
 ![WhatsApp Image 2025-05-18 at 16 44 31_02dc1371](https://github.com/user-attachments/assets/76977ee4-8330-4533-9c48-94d450d9691f)
 
